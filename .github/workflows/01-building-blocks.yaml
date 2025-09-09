@@ -1,6 +1,6 @@
 name: 01 - Building Blocks
 on:
-  - push
+  #  - push disabling to prevent polluting workflows for every repository push
   - workflow_dispatch
 
 jobs:
