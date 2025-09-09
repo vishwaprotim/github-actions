@@ -14,4 +14,4 @@ jobs:
       - name: Show the trigger
         run: |
           echo "Event name: ${{ github.event_name }}"
-          echo "Event: ${{ github.event }}"
+          echo "Commit ID: ${{ github.event.commits.id }}"
